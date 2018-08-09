@@ -3,7 +3,7 @@ import { loginRoute, registerRoute } from "./routes/auth"
 
 const app = express()
 
-app.get("/", (req, res) =>  res.send("Well... this is one hell of LANDING PAGE!!!!"))
+app.get("/", (req, res) =>  res.send("Well... this is one hell of a landing"))
 app.get("/login", loginRoute )
 app.get("/register", registerRoute )
 
