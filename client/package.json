@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --port 3001 --hmr-port 38373",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "keywords": ["react","redux","parcel","docker"],
+  "author": "Norbert Braun",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}

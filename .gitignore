@@ -1,0 +1,6 @@
+/backend_node/node_modules
+/backend_node/dist
+/backend_node/yarn.lock
+/client/node_modules
+/client/.cache
+/client/dist
