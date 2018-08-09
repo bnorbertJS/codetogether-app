@@ -17,7 +17,7 @@ struct User {
 
 fn index(req: &HttpRequest) -> HttpResponse {
     HttpResponse::Ok()
-        .body("sikeres get keres az index fuggvenyre hihi")
+        .body("Index route wut")
 }
 
 fn handle_login(data: Json<UserLogin>) -> Json<User>{
